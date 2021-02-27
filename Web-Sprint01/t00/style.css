@@ -1,0 +1,13 @@
+img {
+    float: left;
+    margin: 10px;
+    width: 500px;
+    height: 600px;
+}
+
+@media print {
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+}

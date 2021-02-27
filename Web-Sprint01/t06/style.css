@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0 20px;
+    font-family: 'Source Sans Pro';
+}
+#header {
+    color: rgb(246, 107, 136);
+}
+form {
+    width: 100%;
+    padding-top: 1px;
+}
+#formName {
+    text-align: center;
+    color: gray;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.innerWord {
+    color: gray;
+    border: 1px solid gray;
+    font-size: 1.2em;
+    border-radius: 30px;
+    line-height: 50px;
+    width: 240px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+}
+
+input[type="checkbox"]:checked {
+   display: none;
+}
+
+input[type="checkbox"]:checked + .innerWord{
+    background: rgb(29, 41, 82);
+    color: white;
+}
+
+input[type="checkbox"]:checked + .innerWord:after{
+    content: '\2714';
+    padding-left: 5px;
+}
+
+.inputText {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.5);
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+#name {
+    margin-right: 20px;
+}
+
+.inputText:focus {
+    outline: none;
+    color: gray;
+}
+
+.nameEmail {
+    display: flex;
+    flex: 1 1;
+}
+
+#sendDiv {
+    width: 100%;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 50px;
+    background: rgb(246, 107, 136);
+    color: white;
+    font-weight: bold;
+}
+
+.send:hover {
+    background-color: purple;
+    transition: background-color 1s;
+}

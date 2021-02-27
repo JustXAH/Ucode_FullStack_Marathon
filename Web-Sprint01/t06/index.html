@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Super back-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="header">Superhero request form</h1>
+        <form action="">
+            <h1 id="formName">What do you need help with?</h1>
+            <div class="boxes">
+                <input type="checkbox" id="first" name="defeatVillain"
+                           style="display: none">
+                <label class="innerWord" for="first">
+                    <span class="word">DEFEAT A VILLAIN</span>
+                </label>
+                <input type="checkbox" id="second" name="saveCivilian"
+                           style="display: none">
+                <label class="innerWord" for="second">
+                    <span class="word">SAVE A CIVILIAN</span>
+                </label>
+                <input type="checkbox" id="third" name="stopRobbery"
+                           style="display: none">
+                <label class="innerWord" for="third">
+                    <span class="word">STOP A ROBBERY</span>
+                </label>
+            </div>
+            <div class="boxes">
+                <input type="checkbox" id="fourth" name="preventApocalypse"
+                           style="display: none">
+                <label class="innerWord" for="fourth">
+                    <span class="word">PREVENT AN APOCALYPSE</span>
+                </label>
+                <input type="checkbox" id="fifth" name="trainSidekick"
+                           style="display: none">
+                <label class="innerWord" for="fifth">
+                    <span class="word">TRAIN A SIDEKICK</span>
+                </label>
+            </div>
+            <div class="boxes">
+                <input type="checkbox" id="sixth" name="otherStuff"
+                           style="display: none">
+                <label class="innerWord" for="sixth">
+                    <span class="word">OTHER STUFF</span>
+                </label>
+            </div>
+            <div id="textForm">
+                <input class="inputText" type="text" id="details"
+                           name="jobDetails"
+                           placeholder="Job details">
+                <label for="details"></label><br>
+                <div class="nameEmail">
+                    <input class="inputText" type="text" id="name" name="name"
+                           placeholder="Name">
+                    <label for="name"></label>
+                    <input class="inputText" type="text" id="email" name="email"
+                           placeholder="Email">
+                    <label for="email"></label>
+                </div>
+            </div>
+            <div id="sendDiv">
+                <input type="submit" id="send" name="sendButton" value="SEND" style="display: none">
+                <label class="send" for="send">
+                    <span class="word">SEND</span>
+                </label>
+        </form>
+</body>
+
+</html>
