@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+
+.mainWindow {
+    /*font-family: in;*/
+    font-family: 'Trade Winds', serif;
+    /*letter-spacing: 4px;*/
+    /*font-size: 1.5em;*/
+    width: 500px;
+    text-align: center;
+}
+
+img {
+    margin-top: 7px;
+    width: 450px;
+}
+
+.mainWindow_conteiner {
+    background: #000000;
+    border: 1px solid #faf7f7;
+    color: #ffffff;
+    line-height: 40px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.mainWindow_content {
+    height: 50px;
+    width: 500px;
+    /*background: #fcd7df;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: 'Trade Winds', serif;
+    /*font-size: 1.5em;*/
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    outline: #000000;
+}
+
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*    margin: 5px auto;*/
+/*}*/
+
+/*body {*/
+/*    background: #abcdef;*/
+/*}*/
+
+/*div {*/
+/*    position: absolute;*/
+/*    line-height: 80%;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    max-height: 500px;*/
+/*    color: #dffdcf;*/
+/*}*/
+
+/*!*.home {*!*/
+/*!*    max-width: 440px;*!*/
+/*!*}*!*/
+
+/*.tamagotchi {*/
+/*    !*max-width: 80px;*!*/
+/*    z-index: 20;*/
+/*}*/
+
+/*.tamagotchi img {*/
+/*    position: absolute;*/
+/*    !*max-width: 40px;*!*/
+/*    !*top: 260px;*!*/
+/*    !*left: -80px;*!*/
+/*}*/
+
+/*.stats {*/
+/*    !*max-width: 110px;*!*/
+/*    top: 50px;*/
+/*}*/
+
+/*.stats p {*/
+/*    !*text-align: justify;*!*/
+/*}*/
+
+/*.actions {*/
+/*    text-align: center;*/
+/*    top: 330px;*/
+/*}*/
