@@ -1,0 +1,54 @@
+
+.rhombus {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 15;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+}
+#green {
+    background: rgb(92, 225, 65);
+    top: 15%;
+    left: 15%;
+}
+
+#blue {
+    left: 30%;
+    top: 30%;
+    background: royalblue;
+}
+
+#yellow {
+    top: 50%;
+    left: 45%;
+    background: rgb(225, 214, 65);
+}
+
+#red {
+    top: 43%;
+    left: 10%;
+    background: rgb(209, 48, 48);
+}
+
+#pink {
+    top: 5%;
+    left: 40%;
+    background: rgb(225, 65, 217);
+}
+
+#purple {
+    top: 23%;
+    left: 60%;
+    background: rgb(127, 22, 153);
+}
+
+.rhombus[value="off"] {
+    border: 2px dashed #000000;
+}
+.rhombus[value="off"]:hover {
+    filter: none;
+}
