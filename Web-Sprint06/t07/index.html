@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What about forms?</title>
+</head>
+
+<body>
+    <h1>What Thanos did for the Soul Stone?</h1>
+    <form action="/" method="POST">
+        <input type="radio" id="first" name="answer" value="incorrect">
+        <label for="first">Jumped from the mountain</label><br>
+        <input type="radio" id="second" name="answer" value="incorrect">
+        <label for="second">Made stone keeper to jump from the mountain</label><br>
+        <input type="radio" id="third" name="answer" value="correct">
+        <label for="third">Pushed Gamora off the mountain</label><br><br>
+        <button type="submit" >I made a choice!</button>
+        <p id="result">{{ result }}</p>
+    </form>
+</body>
+
+</html>
