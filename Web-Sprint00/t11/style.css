@@ -1,0 +1,40 @@
+h1 {
+    margin-left: 50px;
+    padding-bottom: 39px;
+    font-size: 3em;
+}
+
+.box {
+    width: calc(100vw - 200px);
+    border: 1px solid black;
+    background: rgb(221, 221, 221);
+    margin: auto;
+    padding: 28px 28px;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box::before {
+    position: absolute;
+    content: "";
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: -1px;
+    left: -38px;
+    right: 37px;
+    width: calc(100% + 76px);
+    height: 100%;
+}
+.box::after {
+    position: absolute;
+    content: "";
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    right: -1px;
+    top: -38px;
+    bottom: 37px;
+    width: 100%;
+    height: calc(100% + 76px);
+}
+

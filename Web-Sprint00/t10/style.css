@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+#mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+}
+.dayWeather {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dayWeather:hover {
+    box-shadow: -1px 1px 11px 4px rgba(34, 60, 80, 0.41);
+}
+.dayWeather span:first-child {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background: rgb(64, 149, 181);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.dayWeather span:last-child {
+    font-weight: 400;
+    font-size: 2em;
+}

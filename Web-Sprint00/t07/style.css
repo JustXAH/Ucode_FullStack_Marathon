@@ -1,0 +1,41 @@
+table {
+    border: 4px solid #000000;
+    background: linear-gradient(to right, #6e0000, antiquewhite);
+    border-collapse: collapse;
+}
+td {
+    background: antiquewhite;
+    color: midnightblue;
+    padding: 5px 50px;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+}
+thead th {
+    padding: 10px;
+}
+thead {
+    color: #ffe369;
+    font-weight: bold;
+    background: rgba(110, 0, 0, 0.4);
+    border: 2px solid rgba(189, 195, 199, 0.05);
+}
+tr:nth-child(even)  {
+    background: linear-gradient(to right, #742821, #8b4c43);
+
+}
+tbody th {
+    color: white;
+    font-weight:  bold;
+    font-size: 0.95em;
+    padding: 5px 50px;
+}
+.false {
+    color: white;
+    background: darkred;
+}
+a {
+    color: white;
+    font-weight: bold;
+}
+tfoot th {
+    padding: 5px;
+}
